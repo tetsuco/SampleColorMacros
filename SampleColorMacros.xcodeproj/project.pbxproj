@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1040B1C3148A297C00393414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040B1C2148A297C00393414 /* UIKit.framework */; };
+		1040B1C5148A297C00393414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040B1C4148A297C00393414 /* Foundation.framework */; };
+		1040B1C7148A297C00393414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040B1C6148A297C00393414 /* CoreGraphics.framework */; };
+		1040B1CD148A297C00393414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1040B1CB148A297C00393414 /* InfoPlist.strings */; };
+		1040B1CF148A297C00393414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040B1CE148A297C00393414 /* main.m */; };
+		1040B1D3148A297C00393414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040B1D2148A297C00393414 /* AppDelegate.m */; };
+		1040B1D6148A297C00393414 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040B1D5148A297C00393414 /* ViewController.m */; };
+		1040B1D9148A297C00393414 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1040B1D7148A297C00393414 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1040B1BE148A297C00393414 /* SampleColorMacros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleColorMacros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1040B1C2148A297C00393414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1040B1C4148A297C00393414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1040B1C6148A297C00393414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1040B1CA148A297C00393414 /* SampleColorMacros-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleColorMacros-Info.plist"; sourceTree = "<group>"; };
+		1040B1CC148A297C00393414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1040B1CE148A297C00393414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1040B1D0148A297C00393414 /* SampleColorMacros-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleColorMacros-Prefix.pch"; sourceTree = "<group>"; };
+		1040B1D1148A297C00393414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1040B1D2148A297C00393414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1040B1D4148A297C00393414 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1040B1D5148A297C00393414 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1040B1D8148A297C00393414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1040B1BB148A297C00393414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040B1C3148A297C00393414 /* UIKit.framework in Frameworks */,
+				1040B1C5148A297C00393414 /* Foundation.framework in Frameworks */,
+				1040B1C7148A297C00393414 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1040B1B3148A297C00393414 = {
+			isa = PBXGroup;
+			children = (
+				1040B1C8148A297C00393414 /* SampleColorMacros */,
+				1040B1C1148A297C00393414 /* Frameworks */,
+				1040B1BF148A297C00393414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1040B1BF148A297C00393414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1040B1BE148A297C00393414 /* SampleColorMacros.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1040B1C1148A297C00393414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1040B1C2148A297C00393414 /* UIKit.framework */,
+				1040B1C4148A297C00393414 /* Foundation.framework */,
+				1040B1C6148A297C00393414 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1040B1C8148A297C00393414 /* SampleColorMacros */ = {
+			isa = PBXGroup;
+			children = (
+				1040B1D1148A297C00393414 /* AppDelegate.h */,
+				1040B1D2148A297C00393414 /* AppDelegate.m */,
+				1040B1D4148A297C00393414 /* ViewController.h */,
+				1040B1D5148A297C00393414 /* ViewController.m */,
+				1040B1D7148A297C00393414 /* ViewController.xib */,
+				1040B1C9148A297C00393414 /* Supporting Files */,
+			);
+			path = SampleColorMacros;
+			sourceTree = "<group>";
+		};
+		1040B1C9148A297C00393414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1040B1CA148A297C00393414 /* SampleColorMacros-Info.plist */,
+				1040B1CB148A297C00393414 /* InfoPlist.strings */,
+				1040B1CE148A297C00393414 /* main.m */,
+				1040B1D0148A297C00393414 /* SampleColorMacros-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1040B1BD148A297C00393414 /* SampleColorMacros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1040B1DC148A297C00393414 /* Build configuration list for PBXNativeTarget "SampleColorMacros" */;
+			buildPhases = (
+				1040B1BA148A297C00393414 /* Sources */,
+				1040B1BB148A297C00393414 /* Frameworks */,
+				1040B1BC148A297C00393414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleColorMacros;
+			productName = SampleColorMacros;
+			productReference = 1040B1BE148A297C00393414 /* SampleColorMacros.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1040B1B5148A297C00393414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1040B1B8148A297C00393414 /* Build configuration list for PBXProject "SampleColorMacros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1040B1B3148A297C00393414;
+			productRefGroup = 1040B1BF148A297C00393414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1040B1BD148A297C00393414 /* SampleColorMacros */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1040B1BC148A297C00393414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040B1CD148A297C00393414 /* InfoPlist.strings in Resources */,
+				1040B1D9148A297C00393414 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1040B1BA148A297C00393414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040B1CF148A297C00393414 /* main.m in Sources */,
+				1040B1D3148A297C00393414 /* AppDelegate.m in Sources */,
+				1040B1D6148A297C00393414 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1040B1CB148A297C00393414 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1040B1CC148A297C00393414 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1040B1D7148A297C00393414 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1040B1D8148A297C00393414 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1040B1DA148A297C00393414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1040B1DB148A297C00393414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1040B1DD148A297C00393414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleColorMacros/SampleColorMacros-Prefix.pch";
+				INFOPLIST_FILE = "SampleColorMacros/SampleColorMacros-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1040B1DE148A297C00393414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleColorMacros/SampleColorMacros-Prefix.pch";
+				INFOPLIST_FILE = "SampleColorMacros/SampleColorMacros-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1040B1B8148A297C00393414 /* Build configuration list for PBXProject "SampleColorMacros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1040B1DA148A297C00393414 /* Debug */,
+				1040B1DB148A297C00393414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1040B1DC148A297C00393414 /* Build configuration list for PBXNativeTarget "SampleColorMacros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1040B1DD148A297C00393414 /* Debug */,
+				1040B1DE148A297C00393414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1040B1B5148A297C00393414 /* Project object */;
+}
